@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "@/components/header";
 import { ClerkProvider } from "@clerk/nextjs";
 import Footer from "@/components/footer";
+import { Toaster } from "sonner";
 
 const bricolageGrotesque = Bricolage_Grotesque({subsets:["latin"],
   weight: ["400", "500", "700"],
@@ -23,6 +24,7 @@ export default function RootLayout({ children }) {
         {/*header*/}
         <Header />
         <main className="min-h-screen">{children}</main>
+        <Toaster richColors/>
         {/*footer*/}
         <Footer />
       </body>

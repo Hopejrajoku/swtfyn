@@ -18,7 +18,7 @@ const financial = () => {
 
 
   return (
-    <section className="py-12 px-6 md:px-12 lg:px-24 bg-gray-50">
+    <section id='features' className="py-12 px-6 md:px-12 lg:px-24 bg-gray-50">
       {/* Header */}
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-5xl md:text-6xl font-bold gradient-title gradient">

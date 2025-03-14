@@ -65,7 +65,7 @@ const TestimonialCarousel = () => {
           {testimonials.map((testimonial) => (
             <div
               key={testimonial.id}
-              className="min-w-[60%] md:min-w-[60%] bg-white rounded-lg p-6 shadow-md"
+              className="min-w-[90%] md:min-w-[60%] bg-white rounded-lg p-6 shadow-md"
             >
               <div className="relative">
                 <Quote className="absolute  top-1 bottom-4 text-orange-500 text-3xl" />

@@ -6,8 +6,8 @@ import Link from 'next/link';
 
 const Started  = () => {
   return (
-    <section className="py-10 px-6 md:px-12 lg:px-24">
-        <div className="pb-20 px-6 mt-20">
+    <section className="py-10 md:px-12 lg:px-24">
+        <div className="pb-20 px-6 mt-8">
         
         {/* Left Section (Text) */}
         <div className="conatiner mx-auto text-center">

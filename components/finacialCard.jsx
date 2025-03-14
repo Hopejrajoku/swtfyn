@@ -18,7 +18,7 @@ const FinancialCard  = () => {
 
         {/* Download Buttons */}
         <div className="justify-center space-x-4 mt-8">
-          <Button variant={'default'}>
+          <Button variant='def'>
             <Apple className='w-6 h-6 '/> Coming soon
           </Button>
           <Button variant="outline">
@@ -28,7 +28,7 @@ const FinancialCard  = () => {
       </div>
 
       {/* Right Section (Image) */}
-      <div className="mx-auto px-6  flex justify-center">
+      <div className="mx-auto px-6  flex justify-center ">
         <Image
           src="/financialcard.png" // Ensure correct path
           alt="Financial App and Card"
